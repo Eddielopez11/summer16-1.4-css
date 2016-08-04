@@ -2,13 +2,22 @@
 
 /* social media nav */
 
+.bodyBG {
+  background-image: url("bg.jpg");
+}
+
 .pageAllign{
   display: block;
   margin: auto;
-  width: 50%;
+  width: 75%;
 }
 
-.socialMedia {
+.socMedAllign {
+}
+
+.socMedLinks {
+  width: 1px;
+  height: 1px;
 }
 
 .mainNav {

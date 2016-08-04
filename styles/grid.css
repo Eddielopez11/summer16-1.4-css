@@ -1,0 +1,10 @@
+/* grid css */
+
+.grid__column {
+  display: block;
+  font-size: 14px;
+  background: rgb(251	251	251);
+  width: 33%;
+  padding-left: 10px;
+  padding-right: 10px
+}
