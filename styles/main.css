@@ -2,7 +2,7 @@
 
 /* social media nav */
 
-.pageAllignment {
+.pageAllign{
   display: block;
   margin: auto;
   width: 50%;
@@ -12,4 +12,5 @@
 }
 
 .mainNav {
+  text-align: center;
 }
