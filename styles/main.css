@@ -9,33 +9,39 @@ body {
 }
 
 /* Social Media Navigation */
-.socialMedia__nav {
+
+.nav__socialMediaMain {
+  display: inline-block;
+  
 }
 
-.facebook__nav {
+.nav__socialMedia {
+}
+
+.nav__facebook {
   margin: auto;
   width: 25px;
   height: 25px;
 }
 
-.rssFeed__nav {
+.nav__rssFeed {
   margin: auto;
   width: 25px;
   height: 25px;
 }
 
-.twitter__nav {
+.nav__twitter {
   margin: auto;
   width: 25px;
   height: 25px;
 }
 
-.youtube__nav {
+.nav__youtube {
   margin: auto;
   width: 15px;
   height: 15px;
 }
 /* Navigation bar */
-.navBar {
+.nav__bar {
   text-align: center;
 }

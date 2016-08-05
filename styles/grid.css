@@ -1,7 +1,7 @@
 /* grid css */
 
 .grid__column {
-  display: block;
+  display: inline-block;
   font-size: 14px;
   background: rgb(251	251	251);
   width: 33%;
