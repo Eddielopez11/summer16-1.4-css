@@ -1,5 +1,14 @@
 /* grid css */
 
+* {
+  box-sizing: border-box;
+}
+
+.grid__row {
+  font-size: 0;
+  background: white;
+}
+
 .grid__column {
   display: inline-block;
   font-size: 14px;
@@ -7,4 +16,9 @@
   width: 33%;
   padding-left: 10px;
   padding-right: 10px
+}
+
+.article {
+  background-repeat: no-repeat;
+  background-size: cover;
 }
