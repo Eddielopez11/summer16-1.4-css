@@ -1,25 +1,47 @@
 /* main css */
 
-/* social media nav */
-
-.bodyBG {
+/* saw this in codeacademy.com on css tut, seems to be working */
+body {
+  display: block;
+  margin: auto;
+  width: 650px;
   background-image: url("../assets/bg.jpg");
 }
 
-.pageAllign{
-  display: block;
+/* Social Media Navigation */
+.socialMedia__nav {
+  width: 300px;
+  height: 50px;
+}
+
+.facebook__nav {
+  display: inline-block;
   margin: auto;
-  width: 75%;
+  width: 15px;
+  height: 15px;
 }
 
-.socMedAllign {
+.rssFeed__nav {
+  display: inline-block;
+  margin: auto;
+  width: 15px;
+  height: 15px;
 }
 
-.socMedLinks {
-  width: 1px;
-  height: 1px;
+.twitter__nav {
+  display: inline-block;
+  margin: auto;
+  width: 15px;
+  height: 15px;
 }
 
-.mainNav {
+.youtube__nav {
+  display: inline-block;
+  margin: auto;
+  width: 15px;
+  height: 15px;
+}
+/* Navigation bar */
+.navBar {
   text-align: center;
 }
