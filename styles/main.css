@@ -10,33 +10,27 @@ body {
 
 /* Social Media Navigation */
 .socialMedia__nav {
-  width: 300px;
-  height: 50px;
 }
 
 .facebook__nav {
-  display: inline-block;
   margin: auto;
-  width: 15px;
-  height: 15px;
+  width: 25px;
+  height: 25px;
 }
 
 .rssFeed__nav {
-  display: inline-block;
   margin: auto;
-  width: 15px;
-  height: 15px;
+  width: 25px;
+  height: 25px;
 }
 
 .twitter__nav {
-  display: inline-block;
   margin: auto;
-  width: 15px;
-  height: 15px;
+  width: 25px;
+  height: 25px;
 }
 
 .youtube__nav {
-  display: inline-block;
   margin: auto;
   width: 15px;
   height: 15px;
