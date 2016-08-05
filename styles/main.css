@@ -12,53 +12,57 @@ body {
 }
 
 /* Social Media Navigation */
-/*.container {
+.container {
   position: relative;
-  width: 100%
- }*/
+}
 
 .nav__socialMediaMain {
   display: inline-block;
-  position: inherit;
-  right: 0px;
 }
 
 .nav__subscribe {
-  /*margin-bottom: 50px;*/
+  margin-left: 610px;
 }
 
 .nav__facebook {
   margin-left: 50px;
-  width: 25px;
-  height: 25px;
+  width: 40px;
+  height: 40px;
 }
 
 .nav__rssFeed {
   margin: auto;
-  width: 25px;
-  height: 25px;
+  width: 40px;
+  height: 40px;
 }
 
 .nav__twitter {
   margin: auto;
-  width: 25px;
-  height: 25px;
+  width: 40px;
+  height: 40px;
 }
 
 .nav__youtube {
   margin: auto;
-  width: 15px;
-  height: 15px;
+  width: 40px;
+  height: 40px;
 }
 /* Navigation bar */
 .nav__bar {
-  margin-top: 86px;
+  margin-top: 60px;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
 .nav__bar--color {
   display: inline-block;
-  text-align: center;
+  padding-left: 42px;
+  padding-right: 42px;
+  padding-top: 6px;
+  padding-bottom: 8px;
   background-color: rgb(177, 43, 50);
+  font-size: 21px;
+  text-transform: uppercase;
 }
 
 /* carousel image */
