@@ -1,5 +1,21 @@
 /* Contact info styling */
 
+.contact__color {
+  background: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.contact__leftAlign {
+  display: inline-block;
+  width: 55%;
+}
+
+.contact__rightAlign {
+  display: inline-block;
+  width: 35%;
+}
+
 .contact__facebook {
   margin: auto;
   width: 20px;

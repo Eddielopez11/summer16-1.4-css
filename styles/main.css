@@ -8,7 +8,7 @@ body {
 
 .body {
   margin: auto;
-  width: 900px;
+  width: 700px;
 }
 
 /* Social Media Navigation */
@@ -21,52 +21,77 @@ body {
 }
 
 .nav__subscribe {
-  margin-left: 610px;
+  margin-left: 315px;
+  padding: 5px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
 }
 
 .nav__facebook {
   margin-left: 50px;
-  width: 40px;
-  height: 40px;
+  margin-right: 5px;
+  padding: 10px 15px;
+  width: 50px;
+  height: 53px;
+  opacity: .6;
+  background-color: rgb(67,	87,	150);
+  border-bottom: 3px solid grey;
 }
 
 .nav__rssFeed {
-  margin: auto;
-  width: 40px;
-  height: 40px;
+  margin: auto 5px;
+  padding: 13px 13px;
+  width: 50px;
+  height: 53px;
+  opacity: .6;
+  background-color: rgb(203, 142, 50);
+  border-bottom: 3px solid grey;
 }
 
 .nav__twitter {
-  margin: auto;
-  width: 40px;
-  height: 40px;
+  margin: auto 5px;
+  padding: 12px 12px;
+  width: 50px;
+  height: 53px;
+  opacity: .6;
+  background-color: rgb(106,	140,	198);
+  border-bottom: 3px solid grey;
 }
 
 .nav__youtube {
-  margin: auto;
-  width: 40px;
-  height: 40px;
+  margin: auto auto auto 5px;
+  padding: 10px;
+  width: 50px;
+  height: 53px;
+  opacity: .6;
+  background-color: rgb(177,	56,	45);
+  border-bottom: 3px solid grey;
 }
 /* Navigation bar */
 .nav__bar {
-  margin-top: 60px;
+  margin-top: 30px;
   margin-bottom: 15px;
   text-align: center;
 }
 
 .nav__bar--color {
   display: inline-block;
-  padding-left: 42px;
-  padding-right: 42px;
+  padding-left: 30px;
+  padding-right: 30px;
   padding-top: 6px;
   padding-bottom: 8px;
   background-color: rgb(177, 43, 50);
-  font-size: 21px;
+  font-size: 17px;
   text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  border-bottom: 3px solid grey;
 }
 
 /* carousel image */
 .main__image--resize {
+  margin: 15px 0;
   width: 100%;
   height: 250px;
 }

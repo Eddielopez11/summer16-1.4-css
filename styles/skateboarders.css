@@ -1,1 +1,38 @@
-/* skateboarders pictures with names over them */ 
+/* skateboarders pictures with names over them */
+
+.sk8er__div--align {
+  display: inline-block;
+  margin: auto;
+}
+
+.sk8er__resize--topLeft {
+  display: inline-block;
+  margin: auto;
+  width: 230px;
+  height: 150px;
+  border: 3px solid white;
+}
+
+.sk8er__resize--topMid {
+  display: inline-block;
+  margin: auto;
+  width: 230px;
+  height: 150px;
+  border: 3px solid white;
+}
+
+.sk8er__resize--topRight {
+  display: inline-block;
+  margin: auto;
+  width: 232px;
+  height: 300px;
+  border: 3px solid white;
+}
+
+.sk8er__resize--bottomLeft {
+  display: inline-block;
+  margin: auto;
+  width: 463px;
+  height: 150px;
+  border: 3px solid white;
+}
