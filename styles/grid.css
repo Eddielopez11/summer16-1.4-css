@@ -20,5 +20,9 @@
 }
 
 .article__readMore {
+  margin: 0 55px;
   text-align: center;
+  color: rgb(177, 43, 50);
+  text-transform: uppercase;
+  font-weight: bold;
 }

@@ -11,6 +11,8 @@
   width: 230px;
   height: 150px;
   border: 3px solid white;
+  object-fit: cover;
+  object-position: center;
 }
 
 .sk8er__resize--topMid {
@@ -19,6 +21,8 @@
   width: 230px;
   height: 150px;
   border: 3px solid white;
+  object-fit: cover;
+  object-position: center;
 }
 
 .sk8er__resize--topRight {
@@ -27,6 +31,8 @@
   width: 232px;
   height: 300px;
   border: 3px solid white;
+  object-fit: cover;
+  object-position: right;
 }
 
 .sk8er__resize--bottomLeft {
@@ -35,4 +41,22 @@
   width: 463px;
   height: 150px;
   border: 3px solid white;
+  object-fit: cover;
+  object-position: center;
+}
+
+.contact__div--names {
+  display: inline-block;
+  position: relative;
+}
+
+.sk8er__names {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 60%;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
 }

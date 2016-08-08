@@ -43,15 +43,19 @@
         </nav>
       </header>
       <main>
-        <a href="#powellPeralta">
-          <img class="main__image--resize" src="assets/top-image.png" alt="powell peralta skateboards" />
-        </a>
-        <a href="#powellPeralta">
-        </a>
-        <a href="#carouselImage2">
-        </a>
-        <a href="#carouselImage3">
-        </a>
+        <div class="main__image--div">
+          <a href="#powellPeralta">
+            <img class="main__image--resize" src="assets/top-image.png" alt="powell peralta skateboards" />
+          </a>
+          <img class="main__image--grid" src="assets/grid.png" alt="" />
+          <img class="main__image--logo" src="assets/peralta-logo.png" alt="" />
+        </div>
+          <a href="#powellPeralta">
+          </a>
+          <a href="#carouselImage2">
+          </a>
+          <a href="#carouselImage3">
+          </a>
       </main>
       <section class="grid__row">
         <div class="grid__column">
@@ -92,23 +96,31 @@
         </div>
       </section>
       <section>
-        <div class="sk8er__div--align">
           <!-- images below articles -->
-          <a href="#lanceMountain">
-            <img class="sk8er__resize--topLeft" src="assets/sk8er-4.png" alt="lance mountain" />
-          </a>
-          <a href="#rodneyMullen">
-            <img class="sk8er__resize--topMid" src="assets/sk8er-3.png" alt="rodney mullen" />
-          </a>
-          <a href="#steveCaballero">
-            <img class="sk8er__resize--topRight" src="assets/sk8er-2.png" alt="steve caballero" />
-          </a>
-        </div>
-        <div class="sk8er__div--align">
-          <a href="#tommyGuerrero">
-            <img class="sk8er__resize--bottomLeft" src="assets/sk8er-1.png" alt="tommy guerrero" />
-          </a>
-        </div>
+          <div class="contact__div--names">
+            <a href="#lanceMountain">
+              <img class="sk8er__resize--topLeft" src="assets/sk8er-4.png" alt="lance mountain" />
+              <h3 class="sk8er__names">lance mountain</h3>
+            </a>
+          </div>
+          <div class="contact__div--names">
+            <a href="#rodneyMullen">
+              <img class="sk8er__resize--topMid" src="assets/sk8er-3.png" alt="rodney mullen" />
+              <h3 class="sk8er__names">rodney mullen</h3>
+            </a>
+          </div>
+          <div class="contact__div--names">
+            <a href="#steveCaballero">
+              <img class="sk8er__resize--topRight" src="assets/sk8er-2.png" alt="steve caballero" />
+              <h3 class="sk8er__names">steve caballero</h3>
+            </a>
+          </div>
+          <div class="contact__div--names">
+            <a href="#tommyGuerrero">
+              <img class="sk8er__resize--bottomLeft" src="assets/sk8er-1.png" alt="tommy guerrero" />
+              <h3 class="sk8er__names">tommy guerrero</h3>
+            </a>
+          </div>
       </section>
       <section class="sk8boards__color">
 
@@ -167,10 +179,10 @@
         </div>
         <div class="contact__rightAlign">
           <form class="" action="index.html" method="post">
-            <input type="text" name="name" value="Name">
-            <input type="text" name="email" value="Email">
-            <textarea name="text" rows="8" cols="40"></textarea>
-            <input type="submit" name="submit" value="Submit">
+            <input class="contact__inputName" type="text" name="name" value="name">
+            <input class="contact__inputEmail" type="text" name="email" value="email">
+            <textarea class="contact__inputTextArea" name="text" rows="8" cols="40"></textarea>
+            <input class="contact__submit" type="submit" name="submit" value="Submit">
           </form>
         </div>
       </footer>
